@@ -40,29 +40,46 @@ Number of occurrences of um i.e 1 in the above input
 
 ##  test ##
 
-    tests =[
+    tests =
+
+    [
         {
             'input': 'um, hello, world',
             'output': 1
         },
+
         {
             'input': 'hello, um, world',
             'output': 1
         },
+
         {
             'input': 'hello, world',
             'output': 0
         },
+
         {
             'input': '',
             'output': 0
         },
+
         {
             'input': 'Hello UM world, um, I am Jane. I work at um.',
             'output': 3
         },
+
         {
-            
+            'input': 'um um um um um',
+            'output': 5
+        },
+
+        {
+            'input': 'UM um Um uM',
+            'output': 4
+        },
+        {
+            'input': 'hello, world um',
+            'output': 1
         }
     ]
 
