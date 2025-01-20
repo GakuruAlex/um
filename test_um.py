@@ -49,3 +49,6 @@ def test_count_case_insensitivley(text, um_count):
 ])
 def test_count_with_no_um_present(text, um_count):
     assert count(text) == um_count
+
+def test_count_with_str_of_just_um():
+    assert count("um um um um") == 4
