@@ -38,7 +38,8 @@ def test_count_as_a_sub_string_of_another_word():
 
 @pytest.mark.parametrize("text, um_count",[
     ("UM, hello world", 1),
-    ("um, hello world", 1)
+    ("um, hello world", 1),
+    ("um UM Um uM", 4)
 ])
 def test_count_case_insensitivley(text, um_count):
     assert count(text) == um_count
