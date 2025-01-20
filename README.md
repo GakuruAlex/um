@@ -38,8 +38,21 @@ Install requirements
 ```bash
     pip install -r requirements.txt
 ```
+# Usage #
+
+Run
+
+```bash
+    python3 um.py
+```
 
 # Test #
+
+Run
+
+```bash
+    pytest -v
+```
 
 [test](test_um.py)
 # Author #
